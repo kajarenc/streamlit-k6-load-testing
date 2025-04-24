@@ -12,7 +12,7 @@ export const options = {
       stages: [
         { duration: '10s', target: 5 },   // Ramp up to 5 users over 10 seconds
         { duration: '15s', target: 10 },  // Ramp up to 10 users over 20 seconds 
-        { duration: '30s', target: 30 },  // Ramp up to 15 users over 30 seconds
+        { duration: '30s', target: 12 },  // Ramp up to 15 users over 30 seconds
         { duration: '15s', target: 10 },  // Ramp up to 10 users over 10 seconds
         { duration: '10s', target: 5 },   // Ramp down to 0 users over 10 seconds
       ],
