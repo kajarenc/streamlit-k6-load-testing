@@ -10,6 +10,8 @@ Use a profiler such as [memray](https://github.com/bloomberg/memray) for memory 
 memray run -m streamlit run app.py
 ```
 
+After streamlit app stopped, follow the instructions from the command line to generate a memory consuption chart by memray.
+
 ## Run k6 to initiate multiple browser sessions for load testing
 
 ```bash
